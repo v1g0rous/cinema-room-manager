@@ -1,3 +1,5 @@
+package main.java;
+
 import java.util.Scanner;
 
 public class Cinema {
@@ -62,6 +64,7 @@ public class Cinema {
             case 1 -> showSeats();
             case 2 -> buyTicket();
             case 3 -> showStats();
+            default -> cinemaController();
         }
     }
 
